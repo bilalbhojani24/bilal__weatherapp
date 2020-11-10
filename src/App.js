@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './App.css';
 import Header from './Header'
 import RightSingleCol from './RightSingleColumn'
@@ -6,11 +6,6 @@ import Error from './Error'
 import Forecast from './ForeCast'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCloud,
-  faBolt,
-  faCloudRain,
-  faCloudShowersHeavy,
-  faSnowflake,
   faSun,
   faSmog,
 } from '@fortawesome/free-solid-svg-icons';

@@ -10,7 +10,7 @@ const ForecastHour = props => {
                 Date : {month} / {day}
             </p>
             <p align="center"> Time : {hour}:00</p>
-            <img src={iconUrl} />
+            <img src={iconUrl} alt={description} />
             <p>{description}</p>
             <p align="center" weight="400">
                 {temp}&#176;
