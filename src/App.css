@@ -1,38 +1,75 @@
-.App {
+.header {
+  padding: 15px;
+}
+.header > p {
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.form-control {
+  border-radius: 18px;
+}
+
+.right_div {
+  padding: 10px 0px;
+  margin: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.degree_symbol {
+  font-size: 25px !important;
+}
+.svg-inline--fa {
+  font-size: 100px !important;
+}
+.error {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid none;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+.error > p {
+  font-size: 30px;
+}
+.forecast {
+  background-color: royalblue;
+}
+.forecast_parent {
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  overflow-x: scroll;
+}
+.forecast_parent ::-webkit-scrollbar {
+  display: none;
+}
+.forecast_parent .forecast_item {
+  min-width: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  margin: 5px;
+  padding: 15px;
+  object-fit: contain;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.singleRow > p {
+  margin: 2px;
+  font-size: 18px;
 }
